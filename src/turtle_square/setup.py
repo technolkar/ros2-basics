@@ -22,9 +22,11 @@ setup(
             'pytest',
         ],
     },
-    entry_points={
+  entry_points={
         'console_scripts': [
-            'square_driver = turtle_square.square_driver:main'
+            'square_driver = turtle_square.square_driver:main',
+            'closed_loop_square = turtle_square.closed_loop_square:main',
+            'pid_heading = turtle_square.pid_heading:main',
         ],
     },
 )
